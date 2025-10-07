@@ -5,46 +5,47 @@
     <title> registro_torneo.html</title>
 </head>
 <body>
+    <h1> Inscripcion torneo:</h1>
     <form action="#">
         <label for="Nombre de usuario">Nombre de usuario:</label>
-        <input type="text" id="Nombre de usuario" name="nombre" ></br>
+        <input required type="text" id="Nombre de usuario" name="nombre" ></br>
         
         <label for="email">Email:</label>
-        <input type="email" id="email" name="email"></br>
+        <input required type="email" id="email" name="correo"></br>
 
-        <label for="contraseña"> Contraseña:</label>
-        <input type="password" id="contraseña" name="contraseña"></br>
+        <label for="contraseñausuario"> Contraseña:</label>
+        <input required type="password" id="contraseñausuario" name="contraseña"></br>
         <label for="mensaje">Recuerda tu contraseña:</label>
         <textarea id="mensaje" name="mensaje" placeholder="recuerda tu contraseña"></textarea>
         <button type="submit">Recordar</button></br>
 
-        <label for="fecha de nacimiento"> Fecha de nacimiento:</label>
-        <input type="date" id="fecha de nacimiento" name="fecha de nacimiento"></br>
+        <label for="fecha de nacimiento usuario"> Fecha de nacimiento:</label>
+        <input required type="date" id="fecha de nacimiento usuario" name="fecha de nacimiento"></br>
 
-        <label for="plataforma"> Plataforma de juego:
-        <input type="radio" id="plataforma" name="plataforma" value="Xbox"> Xbox
-        <input type="radio" id="plataforma" name="plataforma" value="PC"> PC
-        <input type="radio" id="plataforma" name="plataforma" value="PS5"> PS5
+        <label for="plataformajuego"> Plataforma de juego:
+        <input type="radio" id="plataformajuego" name="plataforma" value="Xbox"> Xbox
+        <input type="radio" id="plataformajuego" name="plataforma" value="PC"> PC
+        <input type="radio" id="plataformajuego" name="plataforma" value="PS5"> PS5
             </label></br>
 
-        <label for="juego"> Juego de interes:
-        <input type="checkbox" id="juego" name="juego" value="league of legends"> League of legends
-        <input type="checkbox" id="juego" name="juego" value="Valorant"> Valorant
-        <input type="checkbox" id="juego" name="juego" value="CSGO"> CSGO
-        <input type="checkbox" id="juego" name="juego" value="Age of empire 2"> Age of empire 2
-        <input type="checkbox" id="juego" name="juego" value="Dota 2"> Dota 2
+        <label for="juegofavorito"> Juego de interes:
+        <input type="checkbox" id="juegofavorito" name="juego" value="league of legends"> League of legends
+        <input type="checkbox" id="juegofavorito" name="juego" value="Valorant"> Valorant
+        <input type="checkbox" id="juegofavorito" name="juego" value="CSGO"> CSGO
+        <input type="checkbox" id="juegofavorito" name="juego" value="Age of empire 2"> Age of empire 2
+        <input type="checkbox" id="juegofavorito" name="juego" value="Dota 2"> Dota 2
             </label></br>
 
     
-        <label for="rango">Seleccisona tu nivel de habilidad:</label>
-        <select name="rango" id="rango">
+        <label for="rangousuario">Seleccisona tu nivel de habilidad:</label>
+        <select name="rangousuario" id="rango">
             <option value="bronce">Bronce</option>
             <option value="plata">Plata</option>
             <option value="oro">Oro</option>
             <option value="platino">Platino</option>
         </select></br>
 
-        <button type="button">Enviar Inscripción</button>
+        <button type="submit">Enviar Inscripción</button>
 
     </form>
 </body>
