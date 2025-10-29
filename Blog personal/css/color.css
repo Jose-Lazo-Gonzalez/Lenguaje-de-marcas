@@ -1,0 +1,47 @@
+/*
+*Archivo css para el indice
+*/
+
+
+nav ul {
+    color: rgb(4, 143, 106)
+}
+header {padding: 15px;
+    color:  white;
+    background-color: rgb(142, 6, 142);}
+nav ul a {color: rgb(4, 143, 106);}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f8f9fa;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 20px auto;
+    width: 70%;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+th {
+    background-color: rgb(142, 6, 142);
+    color: white;
+}
+
+ul{
+    text-align: center;
+}
+
+img{
+    border-radius: 10px; 
+}
+
+iframe{
+    border-radius: 10px;
+}
+
